@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-cc_test {
-    name: "mtk_r_submix_tests",
+//cc_test {
+//    name: "mtk_r_submix_tests",
 
-    srcs: ["remote_submix_tests.cpp"],
+//    srcs: ["remote_submix_tests.cpp"],
 
-    shared_libs: [
-        "libhardware",
-        "liblog",
-        "libutils",
-    ],
+//    shared_libs: [
+//        "libhardware",
+//        "liblog",
+//        "libutils",
+//    ],
 
-    cflags: ["-Wall", "-Werror", "-O0", "-g",],
+//    cflags: ["-Wall", "-Werror", "-O0", "-g",],
 
-    header_libs: ["libaudiohal_headers"],
-}
+//    header_libs: ["libaudiohal_headers"],
+//}
