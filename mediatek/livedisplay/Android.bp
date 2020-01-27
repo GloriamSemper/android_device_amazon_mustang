@@ -12,24 +12,24 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-cc_binary {
-    name: "vendor.lineage.livedisplay@2.0-service-mediatek",
-    init_rc: ["vendor.lineage.livedisplay@2.0-service-mediatek.rc"],
-    relative_install_path: "hw",
-    proprietary: true,
-    shared_libs: [
-        "libbase",
-        "libbinder",
-        "libcutils",
-        "libhidlbase",
-        "libhidltransport",
-        "libutils",
-        "vendor.lineage.livedisplay@2.0",
-    ],
+//cc_binary {
+    //name: "vendor.lineage.livedisplay@2.0-service-mediatek",
+    //init_rc: ["vendor.lineage.livedisplay@2.0-service-mediatek.rc"],
+    //relative_install_path: "hw",
+    //proprietary: true,
+    //shared_libs: [
+        //"libbase",
+        //"libbinder",
+        //"libcutils",
+        //"libhidlbase",
+        //"libhidltransport",
+        //"libutils",
+        //"vendor.lineage.livedisplay@2.0",
+   // ],
 
-    srcs: [
-        "DisplayColorCalibration.cpp",
-        "service.cpp",
-    ],
+//    srcs: [
+//        "DisplayColorCalibration.cpp",
+//        "service.cpp",
+//    ],
 
-}
+//}
